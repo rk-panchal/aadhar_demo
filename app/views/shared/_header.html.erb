@@ -1,0 +1,31 @@
+<div class="title-area">
+   <div class="navbar-class">
+      <div class="container">
+<!--         <ul class="nav navbar-nav">
+ -->    <div class="logo_tab">     
+ <%= link_to image_tag('aafinal.png'), 'http://localhost:3000/'%><%= link_to image_tag('aa2.png')   %>
+<!--         <div class="tab">
+ -->          <div class="inner"><%= button_to "HOME", root_path, :method => "get" ,  :class =>"dropbtn"%></div>
+          <div class="inner"><%= button_to "ABOUT US", about_us_path, :method => "get" ,  :class =>"dropbtn"%></div>
+          <div class="inner"><div class="dropdown">
+
+            <button class="dropbtn">COURSES</button>
+            <div class="dropdown-content">
+              <a href="#">SSC</a>
+              <a href="#">BANKING</a>
+              <a href="#">POLICE</a>
+              <a href="#">DEFENCE</a>
+            </div>
+          </div></div>
+         <div class="inner"> <%= button_to "CONTACT", new_home_path, 
+          :method => "get" , :class =>"dropbtn"%></div> 
+<!--           </div> 
+ -->          </div>   
+ <!--         </ul>
+ -->      
+
+      </div>
+    </div>
+
+      
+      
